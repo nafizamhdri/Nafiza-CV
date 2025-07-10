@@ -1,31 +1,33 @@
 // backend/data.js
 
 const educationHistory = [
-    { id: 1, period: '2022 - Sekarang', institution: 'Universitas Gadjah Mada', major: 'S1 - Teknik Informatika' },
-    { id: 2, period: '2019 - 2022', institution: 'SMA Negeri 1 Teladan Yogyakarta', major: 'MIPA' }
+    { id: 1, period: '2023 - Sekarang', institution: 'Universitas Amikom', major: 'S1 - Teknik Informatika' },
+    { id: 2, period: '2020 - 2023', institution: 'SMA Negeri 1 Slogohimo', major: 'MIPA' },
+    { id: 3, period: '2017-2020', institution: 'SMP Negri 1 Purwantoro' },
+    { id: 4, period: '2011-2017', institution: 'SDIT Nur Rohman Slogohimo'}
   ];
   
   const skills = [
-    { name: 'Vue.js', level: 'Mahir' },
+    { name: 'After Effect', level: 'Mahir' },
+    { name: 'Premiere Pro', level: 'Mahir' },
+    { name: 'Photoshop', level: 'Mahir' },
+    { name: 'Indesign', level: 'Menengah' },
+    { name: 'Ilustrator', level: 'Menengah' },
+    { name: 'HTML & CSS', level: 'Mahir' },
     { name: 'JavaScript', level: 'Mahir' },
-    { name: 'Tailwind CSS', level: 'Mahir' },
-    { name: 'Node.js', level: 'Menengah' },
-    { name: 'Express.js', level: 'Menengah' },
-    { name: 'PostgreSQL', level: 'Menengah' },
-    { name: 'Git & GitHub', level: 'Mahir' },
-    { name: 'HTML5 & CSS3', level: 'Mahir' }
+    { name: 'React', level: 'Menengah' },
   ];
   
   const projects = [
     {
-      title: 'Website Toko Online',
-      image: 'https://via.placeholder.com/500x300?text=Proyek+1',
-      description: 'Platform e-commerce dengan fitur keranjang belanja.',
-      tech: ['Vue.js', 'Express.js', 'PostgreSQL'],
-      link: '#'
+      title: 'Motion Graphic Project',
+      image: 'assets/checklistmep_1 - frame at 0m3s.jpg',
+      description: '',
+      tech: ['After Effect'],
+      link: 'https://drive.google.com/file/d/1Zgnati30ePFv3IE74IbcSrYf2SozfPQ2/view?usp=sharing'
     },
     {
-      title: 'Aplikasi Manajemen Tugas',
+      title: 'Poster Design Project',
       image: 'https://via.placeholder.com/500x300?text=Proyek+2',
       description: 'Aplikasi untuk melacak progres tugas harian.',
       tech: ['React', 'Firebase'],
